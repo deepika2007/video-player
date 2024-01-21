@@ -13,7 +13,7 @@ const VideoPlayer = () => {
         videoRef.current.pause();
     }
     return (
-        <Container fluid className='video-container d-flex align-items-center justify-content-center '>
+        <Container fluid className='video-container d-flex align-items-center justify-content-center'>
             <Row className='w-100 d-flex justify-content-center'>
                 <Col md={8} className='d-flex justify-content-between'>
                     <Button className='w-25' onClick={handlePlay} variant='success'>Play</Button>
